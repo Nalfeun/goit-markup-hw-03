@@ -44,12 +44,6 @@ a {
   padding-right: 15px;
 }
 
-.visually-hidden {
-  position: absolute;
-  clip: rect(1px 1px 1px 1px);
-  margin: 0px;
-}
-
 .logo {
   padding: 24px 0px;
   color: var(--accent-text-color);
