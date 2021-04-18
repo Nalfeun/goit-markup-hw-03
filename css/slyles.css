@@ -36,7 +36,7 @@ a {
   margin: 0px;
 }
 
-.conteiner {
+.container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -62,7 +62,7 @@ a {
 }
 
 .site-nav,
-.header-page .conteiner,
+.header-page .container,
 .way {
   display: flex;
   align-items: center;
@@ -167,7 +167,7 @@ a {
 }
 
 .warranty,
-.team .conteiner {
+.team .container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -199,7 +199,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
 }
-.occupation .conteiner {
+.occupation .container {
   padding-bottom: 94px;
 }
 
@@ -250,7 +250,7 @@ a {
   background-color: var(--background-hero-color);
 }
 
-.footer .conteiner {
+.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
