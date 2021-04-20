@@ -68,6 +68,10 @@ a {
   align-items: center;
 }
 
+.header-page a {
+  display: block;
+}
+
 .site-nav .items,
 .contact .items {
   margin-right: 50px;
@@ -167,7 +171,7 @@ a {
 }
 
 .warranty,
-.team .container {
+.team {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -199,7 +203,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
 }
-.occupation .container {
+.occupation {
   padding-bottom: 94px;
 }
 
@@ -224,11 +228,12 @@ a {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: var(--background-main-color);
 }
 
 .team-name {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  /* margin-top: 30px;
+  margin-bottom: 10px; */
 
   color: var(--title-text-color);
   font-weight: 500;
@@ -237,9 +242,13 @@ a {
   text-align: center;
 }
 
+.team-profile {
+  margin: 30px auto;
+}
+
 .team-proff {
-  padding-bottom: 30px;
-  margin: 0px;
+  /* padding-bottom: 30px;
+  margin: 0px; */
 
   font-size: 16px;
   line-height: 1.19;
@@ -250,11 +259,15 @@ a {
   background-color: var(--background-hero-color);
 }
 
-.footer .container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
+.footer a:hover,
+.footer a:focus {
+  color: var(--accent-text-color);
+}
 .logo-footer {
   display: inline-block;
   margin-bottom: 20px;
@@ -373,10 +386,14 @@ a.connection {
   margin-bottom: 0px;
 }
 
+.project-cards {
+  margin: 20px 24px;
+}
+
 .progect-title {
-  margin-top: 20px;
+  /* margin-top: 20px;
   margin-bottom: 0px;
-  padding: 0px 24px;
+  padding: 0px 24px; */
 
   color: var(--title-text-color);
   font-weight: 700;
@@ -386,10 +403,10 @@ a.connection {
 }
 
 .progect-text {
-  margin-top: 4px;
+  /* margin-top: 4px;
   margin-bottom: 0px;
   padding-bottom: 20px;
-  padding-left: 24px;
+  padding-left: 24px; */
 
   color: var(--primary-text-color);
   font-size: 16px;
