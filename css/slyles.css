@@ -257,9 +257,6 @@ a {
 
 .footer {
   background-color: var(--background-hero-color);
-}
-
-.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
