@@ -24,6 +24,17 @@ body {
   letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -243,7 +254,7 @@ a {
 }
 
 .team-profile {
-  margin: 30px auto;
+  padding: 30px;
 }
 
 .team-proff {
@@ -384,7 +395,7 @@ a.connection {
 }
 
 .project-cards {
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 
 .progect-title {
